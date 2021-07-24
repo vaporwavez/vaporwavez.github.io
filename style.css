@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+a {
+  text-decoration: none;
+}
+.style-links {
+  text-align: center;
+  text-decoration: none;
+}
+.navbar-brand {
+  margin-left: 10px;
+}
+#logo {
+  max-width: 50px;
+  width: 100%;
+  margin-left: 10px;
+}
+@media (max-width: 1221px) {
+  #volume-label {
+    display: none;
+  }
+  #volume {
+    display: none;
+  }
+}
+#volume-label {
+  font-size: .8vw;
+  padding-left: 5%;
+  margin-left: 80%;
+  white-space: nowrap;
+
+}
+#volume {
+  height: 20%;
+  width: 20%;
+  margin-left: 80%;
+}
+.resize-modal-title {
+  font-size: 1.7vw !important;
+}
+#play {
+  width: 100%;
+  margin: 30%;
+  margin-left: 0;
+}
+#stop {
+  width: 100%;
+  margin: 30%;
+  margin-left: 0;
+}
+.come-forward {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+}
+#nav-items {
+  display: none;
+
+}
+.resize-start {
+  height: 120%;;
+}
+#title {
+  max-width: 10%;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+@media (max-width: 600px) {
+  .outer-cassette-container {
+    padding-top: 30%;
+  }
+}
+.audio-controls {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  margin: 2%;
+  width: 30px;
+  height: 100%;
+  float: left;
+}
+#marginal-background {
+  background-image: url('image/japan.jpg');
+  height: 100vh;
+  display: block;
+}
+@media (max-width: 400px) {
+  #marginal-background {
+    background-image: url('image/japan-response.jpg');
+    width: 100vw;
+    display: block;
+    background-repeat: no-repeat;
+  }
+}
+#cassette {
+  float: left;
+  height: 36%;
+  width: 72%;
+  display: block;
+  min-width: 106.633px
+}
+.outer-cassette-container {
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 38%;
+  max-height: 50%;
+}
+.cassette-container {
+  float: left;
+  height: 350px;
+  width: 600px;
+}
+.button-margin {
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+#filtered {
+  opacity: 20%;
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(purple, yellow);
+  /* Black background with opacity /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+  /* Add a pointer on hover */
+  pointer-events: none;
+}
+
+.margin {
+  margin-left: 10% !important;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.aesthetic-windows-95-tabbed-container-tabs-button {
+  background: linear-gradient(#89DAFF, #2e2ee8) !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+#cloud {
+  height: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45%;
+  display: block;
+
+  top: 270px;
+  right: 0px;
+}
+.ref {
+  touch-action: none;
+}
+@media (max-width: 1000px){
+  #appendMe {
+    width: 60%;
+    height: auto;
+    margin: 0;
+    margin-top: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #appendMe {
+    width: 30%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-60%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
